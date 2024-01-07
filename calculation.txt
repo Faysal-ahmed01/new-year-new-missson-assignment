@@ -1,0 +1,2 @@
+figma width = 1600 px
+my device height = 1920px
