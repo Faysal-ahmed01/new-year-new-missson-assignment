@@ -11,7 +11,26 @@ body {
   width: 82.5%;
   margin: 0 auto;
 }
-
+/* ---------Common Class style ------------------- */
+.h-secondry {
+  color: #f00;
+  font-size: 24px;
+  font-weight: 500;
+}
+.h-primary {
+  color: #070211;
+  font-family: "Merriweather", serif;
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: capitalize;
+}
+.p-primary {
+  color: rgba(7, 2, 17, 0.6);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px; /* 160% */
+}
+/*------------- Header Section-------------------  */
 header {
   border-radius: 16px;
   background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
@@ -35,4 +54,279 @@ header section h1 {
   font-size: 72px;
   font-weight: 900;
   line-height: 95px;
+}
+
+/* -----------Offer section-------------- */
+
+.offer {
+  margin-top: 120px;
+  text-align: center;
+}
+
+.offer h1 {
+  color: #f00;
+  font-size: 88px;
+  font-weight: 700;
+  margin-bottom: 48px;
+}
+.offer h2 {
+  color: #070211;
+  font-size: 48px;
+  font-weight: 700;
+  margin-top: 16px;
+  margin-bottom: 48px;
+}
+
+.offer img {
+  width: calc((802px / 1600px) * 100%);
+  flex-shrink: 0;
+}
+
+/* -----------Midnight Pirty----------------- */
+.midnight-pirty {
+  background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url("../image/Vectorrr.png");
+  border-radius: 16px;
+  display: flex;
+  margin-top: 120px;
+}
+.midnight-pirty .content {
+  width: 60%;
+  margin-left: 126px;
+  padding-bottom: 142px;
+}
+.midnight-pirty .content h1 {
+  margin-top: 126px;
+  color: #fff;
+  font-family: Merriweather;
+  font-size: 64px;
+  font-weight: 900;
+  line-height: 88px;
+  letter-spacing: 7.04px;
+}
+.midnight-pirty .content p {
+  margin-top: 24px;
+  margin-bottom: 48px;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.midnight-pirty .content a {
+  margin-left: 32px;
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.midnight-pirty img {
+  margin: 69px;
+  width: 23%;
+  aspect-ratio: 1 / 1;
+}
+
+.midnight-pirty a:hover {
+  color: rgb(255, 125, 45);
+}
+
+/* ----------Venue Section Style---------------- */
+.venau {
+  text-align: center;
+  margin-top: 120px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
+  padding: 100px 385px 110px;
+  border-radius: 16px;
+}
+.venau p {
+  color: #070211;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 56px;
+  text-transform: capitalize;
+}
+.venau span {
+  color: #f00;
+}
+
+.venau button {
+  margin-top: 48px;
+  border-radius: 8px;
+  background: #f00;
+  padding: 16px 32px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border: none;
+}
+
+/* --------------Best offer section Style ------------------ */
+.best-offer {
+  margin-top: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 55px;
+}
+.best-offer .first-content {
+  width: 32%;
+}
+.best-offer .first-content h2 {
+  margin-top: 16px;
+  margin-bottom: 22px;
+}
+.best-offer .second-content {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  width: 32%;
+}
+.best-offer .second-content img {
+  border: 15px solid #f00;
+  border-radius: 50%;
+  padding: 22px;
+  width: 80%;
+}
+.best-offer .third-content {
+  padding-left: 30px;
+  width: 32%;
+}
+.best-offer .third-content h2 {
+  color: #f00;
+  font-size: 48px;
+  font-weight: 700;
+}
+.best-offer .third-content p {
+  margin-top: 16px;
+  margin-bottom: 43px;
+}
+.best-offer .third-content img {
+  width: 35%;
+  aspect-ratio: 1 / 1;
+}
+/* -------------Holiday sale Section style ------------------- */
+
+.holidays-sale {
+  margin-top: 120px;
+}
+/* --------------Best Gift Section Style ---------------------- */
+.best-gift {
+  margin-top: 120px;
+}
+
+.best-gift h2 {
+  margin-top: 16px;
+  margin-bottom: 22px;
+}
+.best-gift .photo-container {
+  margin: 48px auto 0px;
+  text-align: center;
+}
+.best-gift .photo-container img {
+  width: 31.2%;
+  aspect-ratio: 1 / 1;
+  margin: 10px 10px;
+  border-radius: 16px;
+  background: lightgray 0px -35.755px / 100% 142.115% no-repeat;
+}
+/* ----------Newsletter section Style ------------------------- */
+.newsletter {
+  margin-top: 120px;
+  border-radius: 16px;
+  background: rgba(255, 0, 0, 0.05);
+  text-align: center;
+  padding-bottom: 80px;
+}
+.newsletter img {
+  width: 150px;
+  aspect-ratio: 1 / 1;
+  margin-top: 80px;
+}
+.newsletter p {
+  width: 896px;
+
+  margin: 22px auto 48px;
+}
+
+.newsletter input {
+  height: 75px;
+  border: none;
+}
+
+.newsletter input[type="submit"] {
+  margin-left: -5px;
+  width: 210px;
+  background: #f00;
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: capitalize;
+  border-radius: 0px 50px 50px 0px;
+}
+.newsletter input[type="email"] {
+  border-radius: 50px 0px 0px 50px;
+  background: #fff;
+  width: 438px;
+  color: rgba(7, 2, 17, 0.3);
+  text-align: center;
+  margin-right: 0px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: normal;
+}
+/* ------------Footer Section Stye----------------------------- */
+footer {
+  margin-top: 120px;
+  padding: 120px 140px;
+  background: #070211;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 500;
+}
+footer hr {
+  border-color: rgba(255, 255, 255, 0.12);
+}
+
+footer .address {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+  text-align: center;
+}
+footer .address > p {
+  line-height: 44px;
+}
+footer .address div div {
+  display: flex;
+  gap: 16px;
+}
+footer .address div {
+  margin-top: 16px;
+}
+footer .social-icon {
+  margin: 48px auto;
+  text-align: center;
+}
+footer .social-icon a {
+  margin: 0 12px;
+}
+footer .copyrigt {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+}
+footer .copyrigt a {
+  color: #fff;
+  text-decoration: none;
 }
