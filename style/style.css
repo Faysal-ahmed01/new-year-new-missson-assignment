@@ -8,7 +8,7 @@ body {
   font-family: "Inter", sans-serif;
 }
 .container {
-  width: 82.5%;
+  width: 83%;
   margin: 0 auto;
 }
 /* ---------Common Class style ------------------- */
@@ -244,7 +244,6 @@ header section h1 {
   width: 100%;
   position: relative;
   margin-top: 70px;
-  /* background-color: aqua; */
 }
 .holidays-sale .image-container .img1 {
   position: relative;
@@ -317,7 +316,6 @@ header section h1 {
 }
 .newsletter p {
   width: 896px;
-
   margin: 22px auto 48px;
 }
 
